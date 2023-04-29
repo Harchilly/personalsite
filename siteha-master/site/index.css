@@ -210,6 +210,23 @@ header table {
     line-height: 1.5;
 }
 
+@media (max-width: 768px) {
+    .card {
+      width: calc(50% - 20px);
+    }
+    .card-title {
+      font-size: 20px;
+    }
+    .card-date {
+      font-size: 12px;
+    }
+    .card-company {
+      font-size: 14px;
+    }
+    .card-description {
+      font-size: 12px;
+    }
+  }
 
 
 
